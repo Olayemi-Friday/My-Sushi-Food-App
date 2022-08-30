@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Mulish:ital,wght@0,500;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;1,8..144,100&family=Roboto+Slab:wght@200&family=Roboto:wght@100;300&family=Rouge+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.banner {
+    background-image: url("image/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+.banner-text h2 {
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 75px;
+    padding-bottom: 40px;
+}
+.banner-text span {
+    font-weight: 800;
+}
+.banner-text p {
+    color: #ffffff;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-left: 40px;
+}
+.banner-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.btn button {
+ padding: 15px;
+ width: 150px;
+ font-family: 'Mulish';
+}
+.btn button a {
+    text-decoration: none;
+    color: black;
+}
+.food h2 {
+    font-family: 'Mulish';
+    font-size: 50px;
+    font-weight: 400; 
+    margin-left: 80px;
+}
+.food-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.food-img img {
+    margin: 20px;
+    width: 225px;
+}
+.food-text {
+    text-align: center;
+}
+.food-text p {
+    margin-top: -22px;
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 200; 
+}
+.food a {
+    text-decoration: none;
+    color: black;
+}
+.home-cart {
+    width: 100%;
+    height: 600px;
+}
+.cart-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.cart-pic {
+    width: 60%;
+    height: 400px;
+    background-color: #F1D5BB;
+}
+.cart-price {
+    width: 30%;
+    height: 400px;
+}
+.lal {
+    height: 200px;
+    background-color: #F1D5BB;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 2.5;
+}
+.lal h4 {
+    font-family: 'Mulish';
+    font-size: 30px;
+    font-weight: 400;
+}
+.lal h6 {
+    font-size: 20px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+.orderBtn button {
+    padding: 8px;
+    width: 180px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+}
+.lalaa {
+    height: 180px;
+    border: 1px solid pink;
+    text-align: center;
+    line-height: 2.5;
+}
+.lalaa h4 {
+    font-family: 'Mulish';
+    font-size: 30px;
+    font-weight: 400;
+}
+.applyBtn button {
+    padding: 8px;
+    width: 180px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+}
+.lalaa input {
+    height: 34px;
+    border: 1px solid pink;
+}
+.lalaa ::placeholder {
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 15px;
+}
+.home-text h2 {
+    font-family: 'Mulish';
+    font-size: 50px;
+    font-weight: 200; 
+    margin-left: 60px;
+}
+.home-text a {
+    text-decoration: none;
+    color: black;
+}
+.me {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.me img {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.me p {
+    font-family: 'Mulish';
+    font-weight: 400;
+}
+.cart-food {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.cart-food button {
+    margin: 15px;
+    border: none;
+    background-color: #F1D5BB;
+}
+.cart-food span {
+    background-color: white;
+    width: 25px;
+    text-align: center;
+}
+.close {
+    margin-left: 200px;
+}
+.big {
+    background-color: #E5E5E5;
+}
